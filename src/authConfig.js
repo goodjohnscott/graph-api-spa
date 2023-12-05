@@ -6,9 +6,9 @@
 import { LogLevel } from "@azure/msal-browser";
 
 export const listConfig = {
-    siteHost: "mwfedgcc-my.sharepoint.com",
-    siteRelativePath: "personal/josco_mwfedgcc_onmicrosoft_com",
-    listName: "USPS OIG Anakytics Hub"    
+    siteHost: "<<add site host>>",
+    siteRelativePath: "<<add site relative path>>",
+    listName: "<<add list name>>"    
 };
 
 /**
@@ -18,8 +18,8 @@ export const listConfig = {
  */
 export const msalConfig = {
     auth: {
-        clientId: "006df31b-3c10-4602-9f27-1e8313ed55b5",
-        authority: "https://login.microsoftonline.com/3decc9d3-1e3e-45de-8643-18f03d5d5153",
+        clientId: "<<add client id>>",
+        authority: "https://login.microsoftonline.com/<<add tenant id>>",
         redirectUri: "http://localhost:3000",
     },
     cache: {
